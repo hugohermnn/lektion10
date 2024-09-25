@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,4 +26,31 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+
+  body {
+    background-color: black;
+  }
+
+
+  .img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .text2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
   }
